@@ -1,0 +1,27 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+  
+{: .toc subcollection="dynamic-dashboard-embedded" audience="service"  href="/docs/services/dynamic-dashboard-embedded/index.html"}
+Dynamic Dashboard Embedded
+  
+	{: .navgroup id="learn"}
+	index.md
+	dde_getting_started.md
+	dde_urlapis.md
+	dde_csv_data.md
+	working_with_datasources.md
+	using_dde.md
+
+  		
+	{: .topicgroup}
+	Examples
+		ddeusecase_addcanneddashboard.md
+		ddeusecase_createowndashbassets.md
+		ddeusecase_updatedatasourceinfo.md
+		ddeusecase_encryptdatasourceinformation.md
+	{: .navgroup-end}
+ 
+ 	{: .navgroup id="reference"}
+	[API reference](https://dde.us-south.containers.mybluemix.net/daas/jsdoc/cognos/api/CognosApi.html)
+	[Swagger reference](https://dde.us-south.containers.mybluemix.net/api-docs/)
+	{: .navgroup-end}
