@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-19"
+lastupdated: "2018-01-25"
 ---
 
 {:new_window: target="_blank"}
@@ -518,8 +518,6 @@ You can specify a database connection, for the following support JDBC connection
 ## CSV data sources
 
 Alternatively, you can use a CSV file as a data source for a dashboard. Instead of defining the JDBC connection information, a URL that contains the location, where the CSV file is stored is passed in, in the *sourceUrl* field as follows:
-
-![csvdatasources](csvdatasource.jpg "CSV data sources")
 
 ### Sample CSV source specification:
 
