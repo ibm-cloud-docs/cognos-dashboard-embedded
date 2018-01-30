@@ -47,11 +47,11 @@ For billing and security purposes, you can create multiple instances.
 
 You use a service credential to programmatically access the service from your application. The service credential includes the URL to access the service instance and the credentials to access the service. It may be desirable to create multiple service credentials for different applications or deployments of your applications. You cannot restore removed credentials. You'll have to create new credentials for your application.
 
-1. On the left side, click **Service credentials** and click **New credential**. Specify the following:
-  - In the **Name** field, you specify the name of the credential. This should represent the name of the application that will be accessing the service.
-  - Optionally select an Access role and Service ID. 
+1. On the left side, click **Service credentials** and click **New credential**. Then, do the following steps:
+	1. In the **Name** field, you specify the name of the credential. This should represent the name of the application that will be accessing the service.
+	1. Optionally select an Access role and Service ID. 
     **Note:** The IAM role is currently not used to access the {{site.data.keyword.dynamdashbemb_short}} service.
-  - Click **Add**.
+	1. Click **Add**.
 2. On the **Service Credentials screen**, click **View credentials** on the name of the credential that you created in the previous step. A JSON object is displayed which includes credential details.
 
 You will use the following values to embed the application and to create a {{site.data.keyword.dynamdashbemb_short}} session, and embed {{site.data.keyword.dynamdashbemb_short}} into your application:
