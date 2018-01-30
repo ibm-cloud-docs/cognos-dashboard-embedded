@@ -15,7 +15,7 @@ lastupdated: "2018-01-19"
 
 ## Step 1: Provisioning a {{site.data.keyword.dynamdashbemb_short}} service instance
 
-You can create one or more instances of the {{site.data.keyword.dynamdashbemb_short}} service. For billing and security purposes, you can create multiple instances.
+You can create one or more instances of the {{site.data.keyword.dynamdashbemb_short}} service.
 
 **Note:**  The Lite pricing plan is unrestricted.  When the {{site.data.keyword.dynamdashbemb_short}} service becomes generally available, quotas will be enforced for the entire account. Creating additional Lite plans will share the same quota.
 
@@ -41,9 +41,11 @@ To create a {{site.data.keyword.dynamdashbemb_short}} service instance, do the f
 
 The {{site.data.keyword.dynamdashbemb_short}} service instance page displays once the service instance is created. This page allows you to access the Getting Started documentation, create credentials, and view or change your plan settings.
 
+For billing and security purposes, you can create multiple instances.
+
 ## Step 2: Creating a service credential
 
-You use a service credential to programmatically access the service from your application. The service credential includes the URL to access the service instance and the credentials to access the service. It may be desirable to create multiple service credentials for different applications or deployments of your applications.  If a credential is removed, it cannot be restored and your application will need to create a new credential.
+You use a service credential to programmatically access the service from your application. The service credential includes the URL to access the service instance and the credentials to access the service. It may be desirable to create multiple service credentials for different applications or deployments of your applications. You cannot restore removed credentials. You'll have to create new credentials for your application.
 
 1. On the left side, click **Service credentials** and click **New credential**. Specify the following:
   - In the **Name** field, you specify the name of the credential. This should represent the name of the application that will be accessing the service.
