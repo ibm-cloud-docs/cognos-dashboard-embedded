@@ -13,7 +13,7 @@ lastupdated: "2018-01-19"
 
 # Overview of {{site.data.keyword.dynamdashbemb_short}}
 
-{{site.data.keyword.dynamdashbemb_full}} provides developers the ability to embed an interactive dashboard with visualizations into their offering.
+{{site.data.keyword.dynamdashbemb_full}} provides developers the ability to embed a visualization platform directly into their application.
 
 ![dashboard_intro](dashboard_intro.jpg "Screenshot of a dashboard")
 
