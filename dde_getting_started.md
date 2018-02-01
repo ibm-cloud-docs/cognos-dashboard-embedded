@@ -107,7 +107,7 @@ See the following example screen capture:
 With {{site.data.keyword.dynamdashbemb_short}}, you can embed dashboards into a web application. Use the JavaScript API to embed dashboards in your web application. The documentation of the API is located here: https://dde.us-south.containers.mybluemix.net/daas/jsdoc/cognos/api/CognosApi.html.
 
 Make sure that your application does the following:
-- Pull in the CognosApi.js file. The CognosApi.js file is available from the {{site.data.keyword.dynamdashbemb_short}} service instance: https://dde.us-south.containers.mybluemix.net/.
+- Pull in the CognosApi.js file. The CognosApi.js file is available from the {{site.data.keyword.dynamdashbemb_short}} service instance: https://jdcluster.us-south.containers.mybluemix.net/daas/CognosApi.js.
 - Create and initialize an instance of the API framework. This API takes three parameters:
   1. The *cognosRootURL*, which is the api_endpoint_url from the credentials created in step 2.
   2. The *sessionCode*, which is the same as the sessionCode created in step 3.
