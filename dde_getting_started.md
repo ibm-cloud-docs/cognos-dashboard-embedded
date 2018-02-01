@@ -63,8 +63,6 @@ You will use the following values to embed the application and to create a {{sit
 
 You can use a REST service to create a {{site.data.keyword.dynamdashbemb_short}} session with basic authentication using the *client_id* and *client_secret*. Since these credentials are sensitive, store them safely and use the credentials only from a server application.  
 
-You can find the Swagger documentation for REST API here: https://dde.us-south.containers.mybluemix.net/api-docs/.
-
 Request Example:
 ```bash
 curl -X POST "https://dde.us-south.containers.mybluemix.net/daas/v1/session" -H "accept: application/json" -H  "authorization: Basic <base64 client_id:client_secret>" -H  "Content-Type: application/json" -d "{  \"expiresIn\": 3600,  \"webDomain\": \"https://myportal.mybluemix.net\"}"
@@ -96,7 +94,7 @@ Use the *sessionCode* value to create and initialize the {{site.data.keyword.dyn
 
 The *keys* object values can be used by the server application while the server application encrypts the credentials when it builds the dashboard specification. Do not use the keys directly within the browser application. 
 
-When you use the Swagger documentation to test the {{site.data.keyword.dynamdashbemb_short}} REST API, enter the *client_id*  in the **Username** field and the *client_secret* in the **Password** field when you authorize the Swagger client using basic authentication.
+When you use the Swagger documentation to test the {{site.data.keyword.dynamdashbemb_short}} REST API, enter the *client_id*  in the **Username** field and the *client_secret* in the **Password** field when you authorize the Swagger client using basic authentication. You can find the Swagger documentation for REST API here: https://dde.us-south.containers.mybluemix.net/api-docs/.
 
 See the following example screen capture:
 
