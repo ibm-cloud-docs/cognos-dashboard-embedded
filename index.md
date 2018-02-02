@@ -17,11 +17,9 @@ lastupdated: "2018-01-19"
 
 ![dashboard_intro](dashboard_intro.jpg "Screenshot of a dashboard")
 
-Virtually every application today has lots of data that can be used to enhance the application user’s insights into the domain of the application. To tap into this value and provide it to their users, the application developer needs to provide a means of showing this raw data through analytics and visualizations.
+You as a developer have the flexibility to determine how end users interact with the platform, from providing a free-form analytic exploration environment in which end users can upload their own data, all the way to offering a guided exploration of the analysis through authored fixed dashboards – and virtually anything in between.
 
-Whether providing a guided exploration of the analysis through authored fixed dashboards, or providing a more free-form analytic exploration environment to allow their users to find their own insights, {{site.data.keyword.dynamdashbemb_short}} provides application developers with a way to add these analytic capabilities to their application.
-
-Adding {{site.data.keyword.dynamdashbemb_short}} into an application involves four steps:
+Complete these four steps to add {{site.data.keyword.dynamdashbemb_short}} into an application:
 1. Creating an {{site.data.keyword.cloud}} account and provisioning a {{site.data.keyword.dynamdashbemb_short}} service instance.
 2. Creating a service credential to access the service instance API.
 3. Creating a {{site.data.keyword.dynamdashbemb_short}} session from your web service application.
