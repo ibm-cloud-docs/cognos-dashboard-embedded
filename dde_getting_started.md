@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-19"
+lastupdated: "2018-02-02"
 ---
 
 {:new_window: target="_blank"}
@@ -65,9 +65,9 @@ You can use a REST service to create a {{site.data.keyword.dynamdashbemb_short}}
 
 Request Example:
 ```bash
-curl -X POST "https://dde.us-south.containers.mybluemix.net/daas/v1/session" -H "accept: application/json" -H  "authorization: Basic <base64 client_id:client_secret>" -H  "Content-Type: application/json" -d "{  \"expiresIn\": 3600,  \"webDomain\": \"https://myportal.mybluemix.net\"}"
+curl -X POST "https://dde-us-south.analytics.ibm.com/daas/v1/session" -H "accept: application/json" -H  "authorization: Basic <base64 client_id:client_secret>" -H  "Content-Type: application/json" -d "{  \"expiresIn\": 3600,  \"webDomain\": \"https://dde-us-south.analytics.ibm.com\"}"
 ```    
-{: pre}
+{: pre}https://dde-us-south.analytics.ibm.com
 
 Response Example:
 ```bash
@@ -94,7 +94,7 @@ Use the *sessionCode* value to create and initialize the {{site.data.keyword.dyn
 
 The *keys* object values can be used by the server application while the server application encrypts the credentials when it builds the dashboard specification. Do not use the keys directly within the browser application. 
 
-When you use the Swagger documentation to test the {{site.data.keyword.dynamdashbemb_short}} REST API, enter the *client_id*  in the **Username** field and the *client_secret* in the **Password** field when you authorize the Swagger client using basic authentication. You can find the Swagger documentation for REST API here: https://dde.us-south.containers.mybluemix.net/api-docs/.
+When you use the Swagger documentation to test the {{site.data.keyword.dynamdashbemb_short}} REST API, enter the *client_id*  in the **Username** field and the *client_secret* in the **Password** field when you authorize the Swagger client using basic authentication. You can find the Swagger documentation for REST API here: https://dde-us-south.analytics.ibm.com/api-docs/.
 
 See the following example screen capture:
 
@@ -102,10 +102,10 @@ See the following example screen capture:
 
 ## Step 4: Embedding {{site.data.keyword.dynamdashbemb_short}} through the JavaScript API
 
-With {{site.data.keyword.dynamdashbemb_short}}, you can embed dashboards into a web application. Use the JavaScript API to embed dashboards in your web application. The documentation of the API is located here: https://dde.us-south.containers.mybluemix.net/daas/jsdoc/cognos/api/CognosApi.html.
+With {{site.data.keyword.dynamdashbemb_short}}, you can embed dashboards into a web application. Use the JavaScript API to embed dashboards in your web application. The documentation of the API is located here: https://dde-us-south.analytics.ibm.com/daas/jsdoc/cognos/api/CognosApi.html.
 
 Make sure that your application does the following:
-- Pull in the CognosApi.js file. The CognosApi.js file is available from the {{site.data.keyword.dynamdashbemb_short}} service instance: https://jdcluster.us-south.containers.mybluemix.net/daas/CognosApi.js.
+- Pull in the CognosApi.js file. The CognosApi.js file is available from the {{site.data.keyword.dynamdashbemb_short}} service instance: https://dde-us-south.analytics.ibm.com/daas/CognosApi.js.
 - Create and initialize an instance of the API framework. This API takes three parameters:
   1. The *cognosRootURL*, which is the api_endpoint_url from the credentials created in step 2.
   2. The *sessionCode*, which is the same as the sessionCode created in step 3.
@@ -121,7 +121,7 @@ You can interact with the embedded dashboard that you created, from the dashboar
 -	Get the dashboard specifications. You can then persist this specification, and use it later in the openDashboard() method.
 
 As an application developer, you can explore this API with the {{site.data.keyword.dynamdashbemb_short}} API explorer page:
-https://dde.us-south.containers.mybluemix.net/daas/DashboardAPI.html.
+https://dde-us-south.analytics.ibm.com/daas/DashboardAPI.html.
 
 ![apiexplorerpage](apiexplorerpage.jpg "Screenshot of the API explorer page")
 
