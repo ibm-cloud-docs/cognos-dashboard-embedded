@@ -13,7 +13,7 @@ lastupdated: "2018-01-19"
 
 # Resolving problems when using from CSV files in {{site.data.keyword.dynamdashbemb_short}}
 
-You import a data asset based on a comma-separated values (CSV) file that contains dates or times, but the results of analysis in {{site.data.keyword.dynamdashbemb_full}} don't make sense.
+You import a data asset based on a comma-separated values (CSV) file that contains dates or times, however the visualization results in {{site.data.keyword.dynamdashbemb_full}} are not what you expected.
 
 ## What's happening
 
@@ -21,15 +21,23 @@ When you create a visualization in a dashboard that displays dates or that is fi
 
 ## Why it's happening
 
-The problems that you see might be caused by the format of the dates in your data, if the source for your data was a CSV file. For example, you have dates such as 1-1-2015, 1-2-2015, 1-3-2015, 1-4-2015, 1-5-2015, and 1-6-2015. When your data is imported, {{site.data.keyword.dynamdashbemb_short}} tries to determine the appropriate format to use for dates. However, you might get unexpected results. In this example, the first number in each date might be interpreted either as January or as the day, leading to different results. The date 1-2-2015 is interpreted as either January 2 or February 1.
+The problems that you see might be caused by the format of the dates in your data, if the source for your data was a CSV file. For example, you have the following dates: 
+-	1-1-2015
+-	1-2-2015
+-	1-3-2015
+-	1-4-2015
+-	1-5-2015
+-	1-6-2015
 
-To determine whether the format of dates is the potential cause of the problem, open your original CSV data file. Then, review the format of the dates.
+When your data is imported, {{site.data.keyword.dynamdashbemb_short}} tries to determine the appropriate format to use for dates. However, you might get unexpected results. The first number in each date might be interpreted either as January or as the day, leading to different results. The date 1-2-2015 is interpreted as either January 2 or February 1.
+
+To determine whether the format of dates is the potential cause of the problem, open your original CSV data file and review the format of the dates.
 
 ## How to fix it
 
 If you have dates that represent a day, month, and year, change the format to be one that is supported by {{site.data.keyword.dynamdashbemb_short}}. Several formats are supported, but some can be ambiguous, as shown in the example above. If you format the dates in the yyyy-mm-dd format (ISO 8601), the dates are always interpreted correctly.
 
-{{site.data.keyword.dynamdashbemb_short}} supports the ISO 8601 standard formats for dates (yyyy-mm-dd) and times. For more information about the standard, in a web browser, open a search engine and type ISO 8601.
+{{site.data.keyword.dynamdashbemb_short}} supports the ISO 8601 standard formats for dates (yyyy-mm-dd) and times. For more information about the standard, please see https://www.iso.org/iso-8601-date-and-time-format.html.
 
 
 ### Supported date formats
