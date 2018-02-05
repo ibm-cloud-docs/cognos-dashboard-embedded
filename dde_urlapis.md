@@ -11,7 +11,7 @@ lastupdated: "2018-02-02"
 {:codeblock: .codeblock}
 {:pre: .pre}
 
-# Api's for {{site.data.keyword.dynamdashbemb_short}}
+# {{site.data.keyword.dynamdashbemb_short}} API reference and Swagger (REST API) reference
 
 The documentation of the API is located here:
 [API reference](https://dde-us-south.analytics.ibm.com/daas/jsdoc/cognos/api/CognosApi.html){: new_window}
