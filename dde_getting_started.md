@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-02-02"
+lastupdated: "2018-02-05"
 ---
 
 {:new_window: target="_blank"}
@@ -113,7 +113,7 @@ Make sure that your application does the following:
     
 After you created an instance of the dashboard, you can either create a new dashboard or open a previously authored dashboard by passing in the dashboard specification.
 
-You can interact with the embedded dashboard that you created, from the dashboard API:
+You can interact with embedded dashboard in various ways through the dashboard API. Some examples include:
 -	Add data sources to the dashboard.
 -	Undo and redo actions.
 -	Show and hide the properties pane.
