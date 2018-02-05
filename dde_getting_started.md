@@ -54,14 +54,14 @@ You use a service credential to programmatically access the service from your ap
 	1. Click **Add**.
 2. On the **Service Credentials screen**, click **View credentials** on the name of the credential that you created in the previous step. A JSON object is displayed which includes credential details.
 
-You will use the following values to embed the application and to create a {{site.data.keyword.dynamdashbemb_short}} session, and embed {{site.data.keyword.dynamdashbemb_short}} into your application:
+You will use the following values to create a session and embed {{site.data.keyword.dynamdashbemb_short}} into your application:
   - api_endpoint_url
   - client_id
   - client_secret
     
 ## Step 3: Creating a {{site.data.keyword.dynamdashbemb_short}} session
 
-You can use a REST service to create a {{site.data.keyword.dynamdashbemb_short}} session with basic authentication using the *client_id* and *client_secret*. Since these credentials are sensitive, store them safely and use the credentials only from a server application.  
+You can use a REST service to create a {{site.data.keyword.dynamdashbemb_short}} session with basic authentication using the *client_id* and *client_secret*. Store and handle these credentials securely as you would any other password. Use credentials only from a server application.  
 
 Request Example:
 ```bash
@@ -102,7 +102,7 @@ See the following example screen capture:
 
 ## Step 4: Embedding {{site.data.keyword.dynamdashbemb_short}} through the JavaScript API
 
-With {{site.data.keyword.dynamdashbemb_short}}, you can embed dashboards into a web application. Use the JavaScript API to embed dashboards in your web application. The documentation of the API is located here: https://dde-us-south.analytics.ibm.com/daas/jsdoc/cognos/api/CognosApi.html.
+With {{site.data.keyword.dynamdashbemb_short}}, you can embed dashboards into a web application using the JavaScript API. The documentation of the API is located here: https://dde-us-south.analytics.ibm.com/daas/jsdoc/cognos/api/CognosApi.html.
 
 Make sure that your application does the following:
 - Pull in the CognosApi.js file. The CognosApi.js file is available from the {{site.data.keyword.dynamdashbemb_short}} service instance: https://dde-us-south.analytics.ibm.com/daas/CognosApi.js.
@@ -111,7 +111,7 @@ Make sure that your application does the following:
   2. The *sessionCode*, which is the same as the sessionCode created in step 3.
   3. The document object model (DOM) node. This is where the dashboard is embedded into your client application.
     
-After you created an instance of the dashboard, you can either open a previously authored dashboard, by passing in the dashboard specification or create a new dashboard.
+After you created an instance of the dashboard, you can either create a new dashboard or open a previously authored dashboard by passing in the dashboard specification.
 
 You can interact with the embedded dashboard that you created, from the dashboard API:
 -	Add data sources to the dashboard.
