@@ -410,6 +410,17 @@ All *identifier* fields in the scheme, must be made of alphanumeric characters, 
 
 The *source* field, identifies where the source is located, and what credentials are used to access the data source. Two types of sources are currently supported in {{site.data.keyword.dynamdashbemb_short}}, JDBC sources, and CSV sources. You can encrypt the fields of the sources section to keep credentials from being in plain text form in the browser, and only accessed from the server. For more information, see [Encrypting data source information](/docs/services/dynamic-dashboard-embedded/ddeusecase_encryptdatasourceinformation.html).
 
+When your DDE application initially shows, a + icon is availble to add a data source. You are advised to listen to the event (user clicks + icon) by using the following code:
+
+```bash
+dashboardAPI.on(‘addSource:clicked’, cb)
+```    
+{: pre}
+
+For more information about the *on* method, see "https://dde.us-south.containers.mybluemix.net/daas/jsdoc/cognos/api/DashboardApi.html#on".
+
+You then can add a data source to a dashboard in {{site.data.keyword.dynamdashbemb_short}}, by calling the *addSources()* method.
+
 ## JDBC data sources
 
 You can specify a database connection, for the following support JDBC connections:
