@@ -17,7 +17,9 @@ You import a data asset based on a comma-separated values (CSV) file that contai
 
 ## What's happening
 
-When you create a visualization in a dashboard that displays dates or that is filtered by dates, the results are not what you expect. For example, you have a data asset that contains one row of data for each month. However, a visualization displays only dates from January for each year. Or, you have data from one month, but the visualization displays dates for a year.
+When you create a visualization in a dashboard that displays dates or that is filtered by dates, the results are not what you expect. For example, you have a data asset that contains one row of data for each month. However, a visualization displays only dates from January for each year. Or, you have data from one month, but the visualization displays dates for a year. The following image explains the situation.
+
+![UnexpectedresultwhenusingdatesinCSVfile](images/csvfile_explained.svg "Unexpected result when using dates in CSV file")
 
 ## Why it's happening
 
