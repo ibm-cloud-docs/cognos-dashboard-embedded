@@ -256,7 +256,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="844.06089"
+     inkscape:cx="876.14381"
      inkscape:cy="99.530218"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -648,13 +648,25 @@
          id="flowPara3451"></flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="559.28638"
-       y="830.47064"
+       x="634.28638"
+       y="764.75635"
        id="text7236-8-2-1-2-1"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan7238-4-0-0-5-5"
-         x="559.28638"
-         y="830.47064">For each data source, the dashboard specification contains both the ID and the module specification inline.</tspan></text>
-  </g>
+         x="634.28638"
+         y="764.75635">For each data source, the dashboard specification contains both the ID and the module specification inline.</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3479"
+       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       transform="translate(1.9860363,171.92345)"><flowRegion
+         id="flowRegion3481"><rect
+           id="rect3483"
+           width="110"
+           height="180"
+           x="628.01398"
+           y="610.43872"
+           style="font-size:15px;" /></flowRegion><flowPara
+         id="flowPara3485">For each data source, the dashboard specification contains both the ID and the module specification inline.</flowPara></flowRoot>  </g>
 </svg>
