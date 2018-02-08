@@ -255,9 +255,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="344.20481"
-     inkscape:cy="864.99568"
+     inkscape:zoom="1.4"
+     inkscape:cx="400.6972"
+     inkscape:cy="326.48527"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -294,6 +294,13 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-1.9860363,-171.92345)">
+    <rect
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.09497428px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect9532"
+       width="112.76218"
+       height="152.04788"
+       x="631.76178"
+       y="751.69543" />
     <rect
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect3427"
@@ -592,24 +599,6 @@
          id="tspan7650-34"
          x="339.56525"
          y="917.05005">dashboard_spec</tspan></text>
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot9524"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(-15.857143,210.71429)"><flowRegion
-         id="flowRegion9526"><rect
-           id="rect9528"
-           width="129.28572"
-           height="156.42859"
-           x="650"
-           y="542.36218" /></flowRegion><flowPara
-         id="flowPara9530">For each data source, the dashboard specification contains both the ID and the module specification inline. </flowPara></flowRoot>    <rect
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.09497428px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="rect9532"
-       width="112.76218"
-       height="152.04788"
-       x="631.76178"
-       y="751.69543" />
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 631.42857,821.50506 -20,0"
@@ -643,5 +632,16 @@
          id="tspan3435"
          x="207.85715"
          y="185.21935">Create and save a new dashboard</tspan></text>
-  </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot9524"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(-15.857143,210.71429)"><flowRegion
+         id="flowRegion9526"><rect
+           id="rect9528"
+           width="129.28572"
+           height="156.42859"
+           x="650"
+           y="542.36218" /></flowRegion><flowPara
+         id="flowPara9530">For each data source, the dashboard specification contains both the ID and the module specification inline. </flowPara></flowRoot>  </g>
 </svg>
