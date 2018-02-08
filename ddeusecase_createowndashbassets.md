@@ -26,4 +26,4 @@ If you want to allow your users of their applications to be able to explore the 
 
 Example flow of how to create and save a new dashboard:
 
-![createsavenewdashboardflow](./createsavenewdashboardflow.jpg "Create and save new dashboard flow")
+![createsavenewdashboardflow](/images/createsavenewdashboardflow.svg "Create and save new dashboard flow")
