@@ -25,4 +25,4 @@ The callback function is passed in the list of module ids, and is responsible fo
 
 Example flow of how to open a dashboard:
 
-![opendashboardflow](opendashboardflow.jpg "Open a dashboard flow")
+![opendashboardflow](/images/opendashboardflow.svg "Open a dashboard flow")
