@@ -17,7 +17,7 @@ When you open an existing dashboard asset, the underlying data source may have c
 -	New credentials, for example a changed password, for accessing the data source.
 -	New columns are added to the data source.
 
-The dashboard specification that is returned by *dashboardAPI.getSpec()* contains the definitions of all the data sources that are passed in, in earlier *dashboardAPI.addSources()* calls. To allow your embedding app to update these data source module definitions, you must use the *updateModuleDefinitions()* method before you open the saved dashboard specification. This method takes two parameters:
+The *dashboardAPI.getSpec()* method returns all definitions of data source that were previously passed in to *dashboardAPI.addSources()*  calls. To allow your embedding app to update these data source module definitions, you must use the *updateModuleDefinitions()* method before you open the saved dashboard specification. This method takes two parameters:
 -	Old dashboard specification
 -	Data source updater callback function
 
