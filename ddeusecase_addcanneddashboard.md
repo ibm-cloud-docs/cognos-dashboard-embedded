@@ -13,14 +13,14 @@ lastupdated: "2018-01-19"
 
 # Adding a canned dashboard to an application
 
-When you want to add dashboards to your application, then you had two options:
+You have two options to add dashboards to your application:
 1.	You can author dashboard views in advance for use within your application.
-2.	Or you can provide a more free-form dash-boarding tool, to allow your users to do their own exploration of the data in your application.
+2.	You can provide a more free-form dash-boarding tool, to allow your users to do their own exploration of the data in your application.
 
-To create your dashboard specifications during development, use {{site.data.keyword.dynamdashbemb_full}} during development as follows:
-1.	During development, launch the {{site.data.keyword.dynamdashbemb_short}} test tool, or your own application that uses {{site.data.keyword.dynamdashbemb_short}}.
+To create your dashboard specifications during development, use {{site.data.keyword.dynamdashbemb_full}} as follows:
+1.	Launch the {{site.data.keyword.dynamdashbemb_short}} test tool, or your own application that uses {{site.data.keyword.dynamdashbemb_short}}.
 2.	Create a new dashboard with the *dashboard.createNew()* method.
-3.	Add the data sources from her application to the dashboard.
+3.	Add the data sources from your application to the dashboard.
 4.	Author the JSON text or dashboard specification with the *dashboardAPI.getSpec()* method.
 5.	Save the dashboard specification with its application source code.
 6.	At run time, instantiate the dashboard in your app with the *dashboard.openDashboard()* method. Pass the dashboard specification that you created earlier.
