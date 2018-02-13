@@ -36,8 +36,8 @@ Before sending the module, your application uses the public key to encrypt the s
 
 Use the prefix *{enc}* on encrypted field values. For example: "password" : "{enc}encryptedpassword". Encrypted values are Base64 encoded.
 
-**Note:** When you use the sensitive information in modules in a new session, then you must re-encrypt that information. While encrypting these fields, you need to update the data sources before any saved dashboard spec is opened. Update the data sources by calling the *updateModuleDefinitions()* method. 
+**Note:** When starting a new session, you must re-encrypt sensitive information that is contained in modules. Before you encrypt these fields, you must update the data sources.  Update the data sources by calling the *updateModuleDefinitions()* method. 
 
 For more information on using the *updateModuleDefinitions()* method, see [Updating data source information](/docs/services/dynamic-dashboard-embedded/ddeusecase_updatedatasourceinfo.html).
 
-Update all modules with encrypted fields with the encrypted fields, by using the encryption key of this session.
+Update all modules with the encrypted fields, by using the encryption key of this session.
