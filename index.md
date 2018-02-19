@@ -17,7 +17,7 @@ lastupdated: "2018-01-19"
 
 ![dashboard_intro](dashboard_intro.jpg "Screenshot of a dashboard")
 
-You as a developer have the flexibility to determine how end users interact with the platform, from providing a free-form analytic exploration environment in which end users can upload their own data, all the way to offering a guided exploration of the analysis through authored fixed dashboards – and virtually anything in between.
+ou as a developer have the flexibility to define the user workflow and control the options available to users. From a guided exploration of the analysis through authored fixed dashboards, to a free-form analytic exploration environment in which users choose their own visualizations – and virtually anything in between.
 
 Complete these four steps to add {{site.data.keyword.dynamdashbemb_short}} into an application:
 1. Creating an {{site.data.keyword.cloud}} account and provisioning a {{site.data.keyword.dynamdashbemb_short}} service instance.
