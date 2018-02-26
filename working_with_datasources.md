@@ -528,7 +528,12 @@ You can specify a database connection, for the following support JDBC connection
 
 ## CSV data sources
 
-Alternatively, you can use a CSV file as a data source for a dashboard. Instead of defining the JDBC connection information, a URL that contains the location, where the CSV file is stored is passed in, in the *sourceUrl* field as follows:
+Alternatively, you can use a CSV file as a data source for a dashboard. Instead of defining the JDBC connection information, a URL that contains the location, where the CSV file is stored is passed in, in the *sourceUrl* field below.
+
+Do not change the *sourceUrl* when it is defined. Make sure that the server that provides the file uses standard HTTP cache control response headers. {{site.data.keyword.dynamdashbemb_full}} can now cache the response locally for better query performance.
+
+If you need {{site.data.keyword.dynamdashbemb_full}} to pass extra headers on the request for the CSV file, to for example, facilitate authentication, you can add headers to the module definition as shown.
+ 
 
 ### Sample CSV source specification:
 
