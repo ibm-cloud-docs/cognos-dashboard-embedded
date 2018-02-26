@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-19"
+lastupdated: "2018-02-26"
 ---
 
 {:new_window: target="_blank"}
@@ -32,6 +32,19 @@ When the embedding application provides a data source module specification, then
 -	sourceUrl
 
 Before sending the module, your application uses the public key to encrypt the sensitive fields of the module.
+
+If you have an encryption key longer than 245 bytes (1960 characters) then do the following:
+1.  Divide the string that you want to encrypt in parts that are a maximum of 245 bytes.
+1.  Encrypt the parts from step 1 and make sure the are base64 encoded.
+1.  Concatenate the encode parts from step 2 with the colon ":" character.
+1.  Use the value from step 3 in the encrypted field.
+
+Example of a JDBCurl:
+
+```bash
+"enc}f1JwT6s3TT5ml+Ir7Y1ndRA8J4zq/KMVlgYGP44k9DxOiSiLEJ82giOvP86lHIDgiOM6zmZ5rN6j6/pRdlFnA/f5UiKj0gDx2LKViyEXyMyptQwDOfs8Lk2qPjM0G8M1WiPHvOVT6iYezgOv04DhNclIVwxAncPBvrUfMi3N5ZgyBrN5gyg/h/bCLQvIBkrcIaSnUHK2Uij6nDfcsPROHjpjI5KX24sHUFbNMkGPfyDsxHUw5ukFxyY3rV4MSHgBsDlq03qKTpnaFCUKAdybpolxA64i8cI0DW1stMpTa5QbuRodnZxa/9cj0QMokzmCNFnvyrHro8gI2TPCAkJLZw==:f1JwT6s3TT5ml+Ir7Y1ndRA8J4zq/KMVlgYGP44k9DxOiSiLEJ82giOvP86lHIDgiOM6zmZ5rN6j6/pRdlFnA/f5UiKj0gDx2LKViyEXyMyptQwDOfs8Lk2qPjM0G8M1WiPHvOVT6iYezgOv04DhNclIVwxAncPBvrUfMi3N5ZgyBrN5gyg/h/bCLQvIBkrcIaSnUHK2Uij6nDfcsPROHjpjI5KX24sHUFbNMkGPfyDsxHUw5ukFxyY3rV4MSHgBsDlq03qKTpnaFCUKAdybpolxA64i8cI0DW1stMpTa5QbuRodnZxa/9cj0QMokzmCNFnvyrHro8gI2TPCAkJLZw=="
+```
+
 **Note:** This key is only valid during the session.
 
 Use the prefix *{enc}* on encrypted field values. For example: "password" : "{enc}encryptedpassword". Encrypted values are Base64 encoded.
