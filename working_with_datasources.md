@@ -538,18 +538,20 @@ Alternatively, you can use a CSV file as a data source for a dashboard. Instead 
 	"source": {
 		"id": "StringID",
 		"srcUrl": {
-			"sourceUrl": "https://community.watsonanalytics.com/wp-content/uploads/2015/08/WA_Sales_Products_2012-14.csv",
+			"sourceUrl": "http://9.24.177.189/data/customers_orders1_opt.csv",
 			"mimeType": "text/csv",
-			"property": [
-				{
-					"name": "separator",
-					"value": ","
-				}, {
-					"name": "ColumnNamesLine",
-					"value": "true"
-				}
-			]
-		},
+			"property": [{
+				"name": "headers",
+				"value": [{
+				"name": "x-header-1",
+				"value": "{enc}somesecretcode"
+			},
+			{
+			"name": "x-header-2",
+			"value": "{enc}someothersecretcode"
+				}]
+			}]
+		}
 		"user": "user_name",
 		"password": "password"
 	},
