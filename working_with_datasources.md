@@ -549,11 +549,11 @@ If you need {{site.data.keyword.dynamdashbemb_full}} to pass extra headers on th
 				"name": "headers",
 				"value": [{
 				"name": "x-header-1",
-				"value": "{enc}somesecretcode"
+				"value": "someheadervalue"
 			},
 			{
 			"name": "x-header-2",
-			"value": "{enc}someothersecretcode"
+			"value": "someotherheadervalue"
 				}]
 			}]
 		}
