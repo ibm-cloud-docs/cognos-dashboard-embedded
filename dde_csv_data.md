@@ -11,7 +11,7 @@ lastupdated: "2018-01-19"
 {:codeblock: .codeblock}
 {:pre: .pre}
 
-# Resolving problems when using from CSV files in {{site.data.keyword.dynamdashbemb_short}}
+# Resolving problems when using data from CSV files in {{site.data.keyword.dynamdashbemb_short}}
 
 You import a data asset based on a comma-separated values (CSV) file that contains dates or times, however the visualization results in {{site.data.keyword.dynamdashbemb_full}} are not what you expected.
 
