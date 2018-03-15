@@ -10,7 +10,7 @@ Dynamic Dashboard Embedded
 	dde_urlapis.md
 	dde_csv_data.md
 	working_with_datasources.md
-		ddeusecase_encryptdatasourceinformation.md
+	ddeusecase_encryptdatasourceinformation.md
 	using_dde.md
 
   		
