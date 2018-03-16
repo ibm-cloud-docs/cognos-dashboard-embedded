@@ -19,7 +19,7 @@ You can create one or more instances of the {{site.data.keyword.dynamdashbemb_sh
 
 **Note:**  The Lite pricing plan is unrestricted.  When the {{site.data.keyword.dynamdashbemb_short}} service becomes generally available, quotas will be enforced for the entire account. Creating additional Lite plans will share the same quota.
 
-If you cannot locate the {{site.data.keyword.dynamdashbemb_short}} service in the experimental catalog, your account must be whitelisted. For access, please contact:  Kevin McFaul Kevin.Mcfaul1@ibm.com (@@@TBD!) with your globally unique identifier (GUID) for your account.  To see your GUID, use the following Bluemix command in the command line interface (CLI):  
+To see your GUID, use the following Bluemix command in the command line interface (CLI):  
 
 ```bash
 bx account list
@@ -30,7 +30,7 @@ To create a {{site.data.keyword.dynamdashbemb_short}} service instance, do the f
 
 1. In your web browser, go to https://console.bluemix.net.
 1. Login to your {{site.data.keyword.cloud}} account, or create an account.
-1. Navigate to the experimental catalog: https://console.bluemix.net/catalog/labs/.
+1. Navigate to the IBM Cloud catalog: https://console.bluemix.net/catalog/.
 1. In the section **Data & Analytics**, click the {{site.data.keyword.dynamdashbemb_short}} tile.
 1. On the {{site.data.keyword.dynamdashbemb_short}} catalog page, specify the following:
   1. Specify a name for the new {{site.data.keyword.dynamdashbemb_short}} service instance.
