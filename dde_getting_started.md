@@ -67,7 +67,7 @@ Request Example:
 ```bash
 curl -X POST "https://dde-us-south.analytics.ibm.com/daas/v1/session" -H "accept: application/json" -H  "authorization: Basic <base64 client_id:client_secret>" -H  "Content-Type: application/json" -d "{  \"expiresIn\": 3600,  \"webDomain\": \"https://dde-us-south.analytics.ibm.com\"}"
 ```    
-{: pre}https://dde-us-south.analytics.ibm.com
+{: pre}
 
 Response Example:
 ```bash
