@@ -104,12 +104,16 @@ See the following example screen capture:
 
 With {{site.data.keyword.dynamdashbemb_short}}, you can embed dashboards into a web application using the JavaScript API. The documentation of the API is located here: https://dde-us-south.analytics.ibm.com/daas/jsdoc/cognos/api/CognosApi.html.
 
+**Note:** Specify the web-domain of your application that contains the {{site.data.keyword.dynamdashbemb_short}} dashboard, in the POST request to create the session.
+
 Make sure that your application does the following:
 - Pull in the CognosApi.js file. The CognosApi.js file is available from the {{site.data.keyword.dynamdashbemb_short}} service instance: https://dde-us-south.analytics.ibm.com/daas/CognosApi.js.
 - Create and initialize an instance of the API framework. This API takes three parameters:
   1. The *cognosRootURL*, which is the api_endpoint_url from the credentials created in step 2.
   2. The *sessionCode*, which is the same as the sessionCode created in step 3.
   3. The document object model (DOM) node. This is where the dashboard is embedded into your client application.
+  
+If the initialization call fails and you get an error like "Refused to display <your IBM URL> in a frame because an ancestor violates the following Content Security Policy directive: frame-ancestors https://myapp.bluemix.net.", then this might be the result of not specifying the sub-domain of your application when you create the session.
     
 After you created an instance of the dashboard, you can either create a new dashboard or open a previously authored dashboard by passing in the dashboard specification.
 
