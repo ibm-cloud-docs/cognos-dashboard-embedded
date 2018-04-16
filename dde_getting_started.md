@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-02-05"
+lastupdated: "2018-04-16"
 ---
 
 {:new_window: target="_blank"}
@@ -128,5 +128,9 @@ As an application developer, you can explore this API with the {{site.data.keywo
 https://dde-us-south.analytics.ibm.com/daas/DashboardAPI.html.
 
 ![apiexplorerpage](apiexplorerpage.jpg "Screenshot of the API explorer page")
+
+## Step 5: Working with a {{site.data.keyword.dynamdashbemb_short}}
+
+{{site.data.keyword.dynamdashbemb_full}} uses the powerful IBM Cognos Analytics dashboard experience. To learn more above the Cognos Analytics dashboard experience, please see [IBM Cognos Analytics - Dashboard documentation](https://www.ibm.com/support/knowledgecenter/en/SSEP7J_11.0.0/com.ibm.swg.ba.cognos.ug_ca_dshb.doc/wa_dashboard_discoveryset_intro.html){: new_window}.
 
 
