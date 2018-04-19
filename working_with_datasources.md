@@ -533,6 +533,8 @@ Alternatively, you can use a CSV file as a data source for a dashboard. Instead 
 Do not change the *sourceUrl* when it is defined. Make sure that the server that provides the file uses standard HTTP cache control response headers. {{site.data.keyword.dynamdashbemb_full}} can now cache the response locally for better query performance.
 
 If you need {{site.data.keyword.dynamdashbemb_full}} to pass extra headers on the request for the CSV file, to for example, facilitate authentication, you can add headers to the module definition as shown.
+
+**Note:** The maximum supported size for CSV files is 1 GB.
  
 
 ### Sample CSV source specification:
