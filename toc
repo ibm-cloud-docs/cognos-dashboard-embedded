@@ -25,7 +25,7 @@ Dynamic Dashboard Embedded
 	[API reference](https://dde-us-south.analytics.ibm.com/daas/jsdoc/cognos/api/CognosApi.html)
 	[Swagger reference](https://dde-us-south.analytics.ibm.com/api-docs/)
 	[Cognos Analytics Dashboard documentation](https://www.ibm.com/support/knowledgecenter/en/SSEP7J_11.0.0/com.ibm.swg.ba.cognos.ug_ca_dshb.doc/wa_dashboard_discoveryset_intro.html)
-	[{{site.data.keyword.dynamdashbemb_full}} on developerWorks](https://developer.ibm.com/data/dynamic-dashboards/)
+	[Dynamic Dashboard Embedded on developerWorks](https://developer.ibm.com/data/dynamic-dashboards/)
 	{: .navgroup-end}
 
 	{: .navgroup-end}
