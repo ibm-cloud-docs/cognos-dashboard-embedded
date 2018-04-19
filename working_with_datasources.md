@@ -13,9 +13,11 @@ lastupdated: "2018-01-25"
 
 # Working with data sources
 
+**Note:** If the database that you use is case-sensitive, then make sure to use the correct casing in {{site.data.keyword.dynamdashbemb_full}}.
+
 ## Adding new data sources with the *addSource()* method
 
-You can add a new data source to a dashboard in {{site.data.keyword.dynamdashbemb_full}}, by calling the addSources() method:
+You can add a new data source to a dashboard in {{site.data.keyword.dynamdashbemb_short}}, by calling the addSources() method:
 
 ```bash
 dashboardAPI.addSources([{
