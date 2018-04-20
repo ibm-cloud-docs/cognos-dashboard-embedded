@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-04-19"
+lastupdated: "2018-04-20"
 ---
 
 {:new_window: target="_blank"}
@@ -543,126 +543,138 @@ If you need {{site.data.keyword.dynamdashbemb_full}} to pass extra headers on th
 
 ```bash
 {
-	"xsd": "https://ibm.com/daas/module/1.0/module.xsd",
-	"source": {
-		"id": "StringID",
-		"srcUrl": {
-			"sourceUrl": "http://9.24.177.189/data/customers_orders1_opt.csv",
-			"mimeType": "text/csv",
-			"property": [{
-				"name": "headers",
-				"value": [{
-				"name": "x-header-1",
-				"value": "someheadervalue"
-			},
-			{
-			"name": "x-header-2",
-			"value": "someotherheadervalue"
-				}]
-			}]
-		}
-		"user": "user_name",
-		"password": "password"
-	},
-	"table": {
-		"name": "TableName",
-		"column": [
-			{
-				"name": "Retailer_country",
-				"datatype": "NVARCHAR(16)",
-				"nullable": true,
-				"description": "Retailer country",
-				"label": "Retailer country",
-				"usage": "attribute",
-				"regularAggregate": "none",
-				"taxonomyFamily": "cCountry"
-			}, {
-				"datatype": "NVARCHAR(17)",
-				"nullable": true,
-				"name": "Order_method_type",
-				"description": "Order method type",
-				"label": "Order method type",
-				"usage": "attribute",
-				"regularAggregate": "none"
-			}, {
-				"datatype": "NVARCHAR(22)",
-				"nullable": true,
-				"name": "Retailer_type",
-				"description": "Retailer type",
-				"label": "Retailer type",
-				"usage": "attribute",
-				"regularAggregate": "none"
-			}, {
-				"datatype": "NVARCHAR(24)",
-				"nullable": true,
-				"name": "Product_line",
-				"description": "Product line",
-				"label": "Product line",
-				"usage": "attribute",
-				"regularAggregate": "none"
-			}, {
-				"datatype": "NVARCHAR(20)",
-				"nullable": true,
-				"name": "Product_type",
-				"description": "Product type",
-				"label": "Product type",
-				"usage": "attribute",
-				"regularAggregate": "none"
-			}, {
-				"datatype": "NVARCHAR(33)",
-				"nullable": true,
-				"name": "Product",
-				"description": "Product",
-				"label": "Product",
-				"usage": "attribute",
-				"regularAggregate": "none"
-			}, {
-				"datatype": "BIGINT",
-				"nullable": true,
-				"name": "Year_",
-				"description": "Year",
-				"label": "Year",
-				"usage": "attribute",
-				"regularAggregate": "none",
-				"taxonomyFamily": "cYear"
-			}, {
-				"datatype": "NVARCHAR(7)",
-				"nullable": true,
-				"name": "Quarter",
-				"description": "Quarter",
-				"label": "Quarter",
-				"usage": "attribute",
-				"regularAggregate": "none",
-				"taxonomyFamily": "cQuarter"
-			}, {
-				"datatype": "DOUBLE",
-				"nullable": true,
-				"name": "Revenue",
-				"description": "Revenue",
-				"label": "Revenue",
-				"usage": "fact",
-				"regularAggregate": "total"
-			}, {
-				"datatype": "DECIMAL(38, 0)",
-				"nullable": true,
-				"name": "Quantity",
-				"description": "Quantity",
-				"label": "Quantity",
-				"usage": "fact",
-				"regularAggregate": "total"
-			}, {
-				"datatype": "DOUBLE",
-				"nullable": true,
-				"name": "Gross_margin",
-				"description": "Gross margin",
-				"label": "Gross margin",
-				"usage": "fact",
-				"regularAggregate": "minimum"
-			}
-		]
-	},
-	"label": "Module Name",
-	"identifier": "moduleId"
+  "xsd": "https://ibm.com/daas/module/1.0/module.xsd",
+  "source": {
+    "id": "StringID",
+    "srcUrl": {
+      "sourceUrl": "http://9.24.177.189/data/customers_orders1_opt.csv",
+      "mimeType": "text/csv",
+      "property": [
+        {
+          "name": "headers",
+          "value": [
+            {
+              "name": "x-header-1",
+              "value": "someheadervalue"
+            },
+            {
+              "name": "x-header-2",
+              "value": "someotherheadervalue"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "table": {
+    "name": "TableName",
+    "column": [
+      {
+        "name": "Retailer_country",
+        "datatype": "NVARCHAR(16)",
+        "nullable": true,
+        "description": "Retailer country",
+        "label": "Retailer country",
+        "usage": "attribute",
+        "regularAggregate": "none",
+        "taxonomyFamily": "cCountry"
+      },
+      {
+        "datatype": "NVARCHAR(17)",
+        "nullable": true,
+        "name": "Order_method_type",
+        "description": "Order method type",
+        "label": "Order method type",
+        "usage": "attribute",
+        "regularAggregate": "none"
+      },
+      {
+        "datatype": "NVARCHAR(22)",
+        "nullable": true,
+        "name": "Retailer_type",
+        "description": "Retailer type",
+        "label": "Retailer type",
+        "usage": "attribute",
+        "regularAggregate": "none"
+      },
+      {
+        "datatype": "NVARCHAR(24)",
+        "nullable": true,
+        "name": "Product_line",
+        "description": "Product line",
+        "label": "Product line",
+        "usage": "attribute",
+        "regularAggregate": "none"
+      },
+      {
+        "datatype": "NVARCHAR(20)",
+        "nullable": true,
+        "name": "Product_type",
+        "description": "Product type",
+        "label": "Product type",
+        "usage": "attribute",
+        "regularAggregate": "none"
+      },
+      {
+        "datatype": "NVARCHAR(33)",
+        "nullable": true,
+        "name": "Product",
+        "description": "Product",
+        "label": "Product",
+        "usage": "attribute",
+        "regularAggregate": "none"
+      },
+      {
+        "datatype": "BIGINT",
+        "nullable": true,
+        "name": "Year_",
+        "description": "Year",
+        "label": "Year",
+        "usage": "attribute",
+        "regularAggregate": "none",
+        "taxonomyFamily": "cYear"
+      },
+      {
+        "datatype": "NVARCHAR(7)",
+        "nullable": true,
+        "name": "Quarter",
+        "description": "Quarter",
+        "label": "Quarter",
+        "usage": "attribute",
+        "regularAggregate": "none",
+        "taxonomyFamily": "cQuarter"
+      },
+      {
+        "datatype": "DOUBLE",
+        "nullable": true,
+        "name": "Revenue",
+        "description": "Revenue",
+        "label": "Revenue",
+        "usage": "fact",
+        "regularAggregate": "total"
+      },
+      {
+        "datatype": "DECIMAL(38, 0)",
+        "nullable": true,
+        "name": "Quantity",
+        "description": "Quantity",
+        "label": "Quantity",
+        "usage": "fact",
+        "regularAggregate": "total"
+      },
+      {
+        "datatype": "DOUBLE",
+        "nullable": true,
+        "name": "Gross_margin",
+        "description": "Gross margin",
+        "label": "Gross margin",
+        "usage": "fact",
+        "regularAggregate": "minimum"
+      }
+    ]
+  },
+  "label": "Module Name",
+  "identifier": "moduleId"
 }
 ```    
 {: pre}
