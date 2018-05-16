@@ -1,8 +1,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
   
-{: .toc subcollection="dynamic-dashboard-embedded" audience="service"  href="/docs/services/dynamic-dashboard-embedded/index.html"}
-Dynamic Dashboard Embedded
+{: .toc subcollection="cognos-dashboard-embedded" audience="service"  href="/docs/services/cognos-dashboard-embedded/index.html"}
+Cognos Dashboard Embedded
   
 	{: .navgroup id="learn"}
 	index.md
