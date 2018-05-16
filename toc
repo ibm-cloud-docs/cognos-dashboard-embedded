@@ -25,7 +25,7 @@ Dynamic Dashboard Embedded
 	[API reference](https://dde-us-south.analytics.ibm.com/daas/jsdoc/cognos/api/CognosApi.html)
 	[Swagger reference](https://dde-us-south.analytics.ibm.com/api-docs/)
 	[Cognos Analytics Dashboard documentation](https://www.ibm.com/support/knowledgecenter/en/SSEP7J_11.0.0/com.ibm.swg.ba.cognos.ug_ca_dshb.doc/wa_dashboard_discoveryset_intro.html)
-	[Dynamic Dashboard Embedded on developerWorks](https://developer.ibm.com/data/dynamic-dashboards/)
+	[Cognos Dashboard Embedded on developerWorks](https://developer.ibm.com/data/cognos-dashboard/)
 	[Tutorial: Building a data lake using object storage](https://console.bluemix.net/docs/tutorials/smart-data-lake.html#build-a-data-lake-using-object-storage)
 	[Tutorial: Combining serverless and Cloud Foundry for data retrieval and analytics](https://console.bluemix.net/docs/tutorials/serverless-github-traffic-analytics.html#combining-serverless-and-cloud-foundry-for-data-retrieval-and-analytics)
 	{: .navgroup-end}
