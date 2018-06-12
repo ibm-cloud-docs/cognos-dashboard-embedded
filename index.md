@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-19"
+lastupdated: "2018-06-12"
 ---
 
 {:new_window: target="_blank"}
@@ -26,7 +26,7 @@ Complete these four steps to add {{site.data.keyword.dynamdashbemb_short}} into 
 4. Adding {{site.data.keyword.dynamdashbemb_short}} into your web client application through the {{site.data.keyword.dynamdashbemb_short}} JavaScript API.
 5. {{site.data.keyword.dynamdashbemb_short}} uses the powerful IBM Cognos Analytics dashboard experience. To learn more above the Cognos Analytics dashboard experience, please see [IBM Cognos Analytics - Dashboard documentation](https://www.ibm.com/support/knowledgecenter/en/SSEP7J_11.0.0/com.ibm.swg.ba.cognos.ug_ca_dshb.doc/wa_dashboard_discoveryset_intro.html){: new_window}.
 
-For more information, see [Getting started tutorial](/docs/services/dynamic-dashboard-embedded/dde_getting_started.html).
+For more information, see [Getting started tutorial](/docs/services/cognos-dashboard-embedded/dde_getting_started.html).
 
 {:shortdesc}
 
