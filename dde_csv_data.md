@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-19"
+lastupdated: "2018-06-12"
 ---
 
 {:new_window: target="_blank"}
@@ -15,7 +15,7 @@ lastupdated: "2018-01-19"
 
 You import a data asset based on a comma-separated values (CSV) file that contains dates or times, however the visualization results in {{site.data.keyword.dynamdashbemb_full}} are not what you expected.
 
-## What's happening
+## What's happening?
 
 When you create a visualization in a dashboard that displays dates or that is filtered by dates, the results are not what you expect. For example, you have a data asset that contains one row of data for each month. However, a visualization displays only dates from January for each year. Or, you have data from one month, but the visualization displays dates for a year. The following image explains the situation.
 
