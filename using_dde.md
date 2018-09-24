@@ -20,3 +20,4 @@ lastupdated: "2018-09-24"
 -	Custom widgets. You cannot extend the set of shapes.
 -	Pinned objects. There is no **My pins panel**.
 -	Intent based authoring.
+- Navigation path/drill related navigation.
