@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-19"
+lastupdated: "2018-09-24"
 ---
 
 {:new_window: target="_blank"}
@@ -17,6 +17,6 @@ lastupdated: "2018-01-19"
 
 {{site.data.keyword.dynamdashbemb_short}} does not support:
 -	Reporting and modelling.
--	Custom widgets. You cannot extend the set op shapes.
+-	Custom widgets. You cannot extend the set of shapes.
 -	Pinned objects. There is no **My pins panel**.
 -	Intent based authoring.
