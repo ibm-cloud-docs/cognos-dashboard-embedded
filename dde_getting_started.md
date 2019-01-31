@@ -124,8 +124,8 @@ You can interact with embedded dashboard in various ways through the dashboard A
 -	Register for events.
 -	Get the dashboard specifications. You can then persist this specification, and use it later in the openDashboard() method.
 
-As an application developer, you can explore this API with the {{site.data.keyword.dynamdashbemb_short}} API explorer page:
-https://dde-us-south.analytics.ibm.com/daas/DashboardAPI.html.
+As an application developer, you can explore this API with the {{site.data.keyword.dynamdashbemb_short}} demo application:
+https://ibm-cognos-dashboard-demo.ng.bluemix.net/.
 
 ![apiexplorerpage](apiexplorerpage.jpg "Screenshot of the API explorer page")
 
