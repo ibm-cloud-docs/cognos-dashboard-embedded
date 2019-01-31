@@ -129,7 +129,7 @@ https://ibm-cognos-dashboard-demo.ng.bluemix.net/.
 
 ![cde_demo_page](cde_demo_page.jpg "Screenshot of the IBM Cognos Dashboard Embedded demo page")
 
-As a starting point a demonstration project is available on GitHub: https://ibm-cognos-dashboard-demo.ng.bluemix.net/.
+As a starting point a demonstration project is available on GitHub: https://github.com/IBM/cognos-dashboard-demo.
 
 ## Step 5: Working with a {{site.data.keyword.dynamdashbemb_short}}
 
