@@ -29,8 +29,8 @@ Cognos Dashboard Embedded
 	[Cognos Dashboard Embedded as a Cloud pattern on developer.ibm.com](https://developer.ibm.com/patterns/build-a-dynamic-dashboard-application/)
 	[Tutorial: Building a data lake using object storage](https://console.bluemix.net/docs/tutorials/smart-data-lake.html#build-a-data-lake-using-object-storage)
 	[Tutorial: Combining serverless and Cloud Foundry for data retrieval and analytics](https://console.bluemix.net/docs/tutorials/serverless-github-traffic-analytics.html#combining-serverless-and-cloud-foundry-for-data-retrieval-and-analytics)
-	[Cognos Embedded demo page](https://ibm-cognos-dashboard-demo.ng.bluemix.net/)
-	[Cognos Embedded demo page on GitHub](https://github.com/IBM/cognos-dashboard-demo)
+	[Cognos Dashboard Embedded demo page](https://ibm-cognos-dashboard-demo.ng.bluemix.net/)
+	[Cognos Deshboard Embedded demo page on GitHub](https://github.com/IBM/cognos-dashboard-demo)
 	{: .navgroup-end}
 
 	{: .navgroup-end}
