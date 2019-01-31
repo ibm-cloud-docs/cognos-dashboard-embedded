@@ -127,7 +127,7 @@ You can interact with embedded dashboard in various ways through the dashboard A
 As an application developer, you can explore this API with the {{site.data.keyword.dynamdashbemb_short}} demo application:
 https://ibm-cognos-dashboard-demo.ng.bluemix.net/.
 
-![apiexplorerpage](apiexplorerpage.jpg "Screenshot of the API explorer page")
+![cde_demo_page](cde_demo_page.jpg "Screenshot of the API explorer page")
 
 ## Step 5: Working with a {{site.data.keyword.dynamdashbemb_short}}
 
