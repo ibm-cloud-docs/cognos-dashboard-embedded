@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-01-31"
+lastupdated: "2019-02-13"
 ---
 
 {:new_window: target="_blank"}
@@ -12,8 +12,10 @@ lastupdated: "2019-01-31"
 {:pre: .pre}
 
 # Getting started tutorial {{site.data.keyword.dynamdashbemb_short}}
+{: #gettingstartedtutorial}
 
 ## Step 1: Provisioning a {{site.data.keyword.dynamdashbemb_short}} service instance
+{: #step1}
 
 You can create one or more instances of the {{site.data.keyword.dynamdashbemb_short}} service.
 
@@ -44,6 +46,7 @@ The {{site.data.keyword.dynamdashbemb_short}} service instance page displays onc
 For billing and security purposes, you can create multiple instances.
 
 ## Step 2: Creating a service credential
+{: #step2}
 
 You use a service credential to programmatically access the service from your application. The service credential includes the URL to access the service instance and the credentials to access the service. It may be desirable to create multiple service credentials for different applications or deployments of your applications. You cannot restore removed credentials. You'll have to create new credentials for your application.
 
@@ -60,6 +63,7 @@ You will use the following values to create a session and embed {{site.data.keyw
   - client_secret
     
 ## Step 3: Creating a {{site.data.keyword.dynamdashbemb_short}} session
+{: #step3}
 
 You can use a REST service to create a {{site.data.keyword.dynamdashbemb_short}} session with basic authentication using the *client_id* and *client_secret*. Store and handle these credentials securely as you would any other password. Use credentials only from a server application.  
 
@@ -101,6 +105,7 @@ See the following example screen capture:
 ![AuthenticatonSwagger](swaggerauthentication.jpg "Screenshot of the REST API Swagger showing the Authenticaton")
 
 ## Step 4: Embedding {{site.data.keyword.dynamdashbemb_short}} through the JavaScript API
+{: #step4}
 
 With {{site.data.keyword.dynamdashbemb_short}}, you can embed dashboards into a web application using the JavaScript API. The documentation of the API is located here: https://dde-us-south.analytics.ibm.com/daas/jsdoc/cognos/api/CognosApi.html.
 
@@ -132,6 +137,7 @@ https://ibm-cognos-dashboard-demo.ng.bluemix.net/.
 As a starting point a demonstration project is available on GitHub: https://github.com/IBM/cognos-dashboard-demo.
 
 ## Step 5: Working with a {{site.data.keyword.dynamdashbemb_short}}
+{: #step5}
 
 {{site.data.keyword.dynamdashbemb_full}} uses the powerful IBM Cognos Analytics dashboard experience. To learn more above the Cognos Analytics dashboard experience, please see [IBM Cognos Analytics - Dashboard documentation](https://www.ibm.com/support/knowledgecenter/en/SSEP7J_11.0.0/com.ibm.swg.ba.cognos.ug_ca_dshb.doc/wa_dashboard_discoveryset_intro.html){: new_window}.
 

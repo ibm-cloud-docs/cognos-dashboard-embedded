@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-06-12"
+  years: 2019
+lastupdated: "2019-02-13"
 ---
 
 {:new_window: target="_blank"}
@@ -12,6 +12,7 @@ lastupdated: "2018-06-12"
 {:pre: .pre}
 
 # Overview of {{site.data.keyword.dynamdashbemb_short}}
+{: #overview_of_cde}
 
 {{site.data.keyword.dynamdashbemb_full}} provides developers the ability to embed a visualization platform directly into their application.
 

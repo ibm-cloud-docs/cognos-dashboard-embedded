@@ -12,6 +12,7 @@ lastupdated: "2018-01-19"
 {:pre: .pre}
 
 # Updating data source information
+{: #updating_data_source_information}
 
 When you open an existing dashboard asset, the underlying data source may have changed since the dashboard specification was last saved. Possible changes are:
 -	New credentials, for example a changed password, for accessing the data source.

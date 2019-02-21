@@ -12,6 +12,7 @@ lastupdated: "2018-01-19"
 {:pre: .pre}
 
 # Adding a canned dashboard to an application
+{: #addingcanneddashboard}
 
 You have two options to add dashboards to your application:
 1.	You can author dashboard views in advance for use within your application.

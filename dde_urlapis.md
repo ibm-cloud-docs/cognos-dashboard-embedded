@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-02-02"
+  years: 2019
+lastupdated: "2019-02-13"
 ---
 
 {:new_window: target="_blank"}
@@ -12,6 +12,7 @@ lastupdated: "2018-02-02"
 {:pre: .pre}
 
 # {{site.data.keyword.dynamdashbemb_short}} API reference and Swagger (REST API) reference
+{: #api_and_swagger_reference}
 
 The documentation of the API is located here:
 [API reference](https://dde-us-south.analytics.ibm.com/daas/jsdoc/cognos/api/CognosApi.html){: new_window}

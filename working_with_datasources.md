@@ -12,10 +12,12 @@ lastupdated: "2018-04-20"
 {:pre: .pre}
 
 # Working with data sources
+{: #workingwithdatasources}
 
 **Note:** If the database that you use is case-sensitive, then make sure to use the correct casing in {{site.data.keyword.dynamdashbemb_full}}.
 
 ## Adding new data sources with the *addSource()* method
+{: #addingnewdatasources}
 
 You can add a new data source to a dashboard in {{site.data.keyword.dynamdashbemb_short}}, by calling the addSources() method:
 
@@ -410,7 +412,7 @@ The top level module object has the following five fields:
 *Label* can be whatever the caller chooses. 
 All *identifier* fields in the scheme, must be made of alphanumeric characters, or the ‘_’ character, and must start with a letter. The main two parts of the module schema are the *source* and the *table* fields.
 
-The *source* field, identifies where the source is located, and what credentials are used to access the data source. Two types of sources are currently supported in {{site.data.keyword.dynamdashbemb_short}}, JDBC sources, and CSV sources. You can encrypt the fields of the sources section to keep credentials from being in plain text form in the browser, and only accessed from the server. For more information, see [Encrypting data source information](/docs/services/dynamic-dashboard-embedded/ddeusecase_encryptdatasourceinformation.html).
+The *source* field, identifies where the source is located, and what credentials are used to access the data source. Two types of sources are currently supported in {{site.data.keyword.dynamdashbemb_short}}, JDBC sources, and CSV sources. You can encrypt the fields of the sources section to keep credentials from being in plain text form in the browser, and only accessed from the server. For more information, see [Encrypting data source information](/docs/services/cognos-dashboard-embedded/ddeusecase_encryptdatasourceinformation.html#encryptingdatasourceinformation).
 
 When your DDE application initially shows, a + icon is availble to add a data source. You are advised to listen to the event (user clicks + icon) by using the following code:
 
@@ -424,6 +426,7 @@ For more information about the *on* method, see "https://dde.us-south.containers
 You then can add a data source to a dashboard in {{site.data.keyword.dynamdashbemb_short}}, by calling the *addSources()* method.
 
 ## JDBC data sources
+{: #jdbcdatasources}
 
 You can specify a database connection, for the following support JDBC connections:
 -	DB2 
@@ -434,6 +437,7 @@ You can specify a database connection, for the following support JDBC connection
 ![JDBCdatasources](jdbc.jpg "JDBC data sources")
 
 ### Sample JDBC source specification:
+{: #samplejdbcsource}
 
 ```bash
 {
@@ -529,6 +533,7 @@ You can specify a database connection, for the following support JDBC connection
 {: pre}
 
 ## CSV data sources
+{: #csvdatasources}
 
 Alternatively, you can use a CSV file as a data source for a dashboard. Instead of defining the JDBC connection information, a URL that contains the location, where the CSV file is stored is passed in, in the *sourceUrl* field below.
 
@@ -540,6 +545,7 @@ If you need {{site.data.keyword.dynamdashbemb_full}} to pass extra headers on th
  
 
 ### Sample CSV source specification:
+{: #samplecsvsource}
 
 ```bash
 {
@@ -681,6 +687,7 @@ If you need {{site.data.keyword.dynamdashbemb_full}} to pass extra headers on th
 
 
 ## Table section of the data source specification
+{: #tableselectionofthedatasourcespecification}
 
 
 The final portion of the data source module specification, is the table field. In this section, the columns of the data source are described, along with their type information:

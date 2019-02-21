@@ -12,6 +12,7 @@ lastupdated: "2018-01-19"
 {:pre: .pre}
 
 # Providing Application users with the ability to create their own dashboard assets
+{: #providingapplicationusersowndashboardassets}
 
 If you want to allow the users of your applications to be able to explore the data from their applications by creating and editing their own dashboards, then do the next steps:
 1.	In your application, allow the user to create a new dashboard with the *dashboard.createNew()* method. Alternatively, the dashboard can be created with the *dashboard.openDashboard()* method with a starter dashboard specification that, for example, already has the application's data sources added to it. If you start with an existing starter dashboard specification, then use the *dashboardAPI.setMode* method, to put the dashboard into edit mode as follows:
