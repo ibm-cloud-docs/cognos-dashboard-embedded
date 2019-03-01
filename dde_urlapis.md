@@ -2,7 +2,11 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-02-13"
+lastupdated: "2019-03-01”
+
+keywords: api, url api, swagger, rest api, reference
+
+subcollection: cognos-dashboard-embedded
 ---
 
 {:new_window: target="_blank"}
