@@ -1,8 +1,12 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-04-20"
+  years: 2018, 2019
+lastupdated: "2019-03-01”
+
+keywords: data source, addsource, method, adding
+
+subcollection: cognos-dashboard-embedded
 ---
 
 {:new_window: target="_blank"}
