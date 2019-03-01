@@ -1,8 +1,12 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-02-13"
+  years: 2018, 2019
+lastupdated: "2019-03-01”
+
+keywords: overview, introduction
+
+subcollection: cognos-dashboard-embedded
 ---
 
 {:new_window: target="_blank"}
