@@ -2,7 +2,11 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-02-13"
+lastupdated: "2019-03-01”
+
+keywords: getting started, session, creating session, service credential
+
+subcollection: cognos-dashboard-embedded
 ---
 
 {:new_window: target="_blank"}
