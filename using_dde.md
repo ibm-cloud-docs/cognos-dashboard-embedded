@@ -1,8 +1,12 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-09-24"
+  years: 2018, 2019
+lastupdated: "2019-03-01”
+
+keywords: user experience, my pins
+
+subcollection: cognos-dashboard-embedded
 ---
 
 {:new_window: target="_blank"}
