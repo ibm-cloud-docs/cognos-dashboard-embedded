@@ -4,30 +4,30 @@
 {: .toc subcollection="cognos-dashboard-embedded" audience="service" arm="3663097" href="/docs/services/cognos-dashboard-embedded/index.html" path="services/cognos-dashboard-embedded"}
 Cognos Dashboard Embedded
   
-  {: .navgroup id="learn"}
-  index.md
-  dde_getting_started.md
-  dde_urlapis.md
-  dde_csv_data.md
-  working_with_datasources.md
-  ddeusecase_encryptdatasourceinformation.md
-  using_dde.md
+    {: .navgroup id="learn"}
+    index.md
+    dde_getting_started.md
+    dde_urlapis.md
+    dde_csv_data.md
+    working_with_datasources.md
+    ddeusecase_encryptdatasourceinformation.md
+    using_dde.md
   		
-  {: .topicgroup}
-  Examples
-    ddeusecase_addcanneddashboard.md
-    ddeusecase_createowndashbassets.md
-    ddeusecase_updatedatasourceinfo.md
-  {: .navgroup-end}
+    {: .topicgroup}
+    Examples
+      ddeusecase_addcanneddashboard.md
+      ddeusecase_createowndashbassets.md
+      ddeusecase_updatedatasourceinfo.md
+    {: .navgroup-end}
  
-  {: .navgroup id="reference"}
-  [API reference](https://dde-us-south.analytics.ibm.com/daas/jsdoc/cognos/api/CognosApi.html)
-  [Swagger reference](https://dde-us-south.analytics.ibm.com/api-docs/)
-  [Cognos Analytics Dashboard documentation](https://www.ibm.com/support/knowledgecenter/en/SSEP7J_11.0.0/com.ibm.swg.ba.cognos.ug_ca_dshb.doc/wa_dashboard_discoveryset_intro.html)
-  [Cognos Dashboard Embedded on developerWorks](https://developer.ibm.com/data/cognos-dashboard/)
-  [Cognos Dashboard Embedded as a Cloud pattern on developer.ibm.com](https://developer.ibm.com/patterns/build-a-dynamic-dashboard-application/)
-  [Tutorial: Building a data lake using object storage](https://console.bluemix.net/docs/tutorials/smart-data-lake.html#build-a-data-lake-using-object-storage)
-  [Tutorial: Combining serverless and Cloud Foundry for data retrieval and analytics](https://console.bluemix.net/docs/tutorials/serverless-github-traffic-analytics.html#combining-serverless-and-cloud-foundry-for-data-retrieval-and-analytics)
-  [Cognos Dashboard Embedded demo page](https://ibm-cognos-dashboard-demo.ng.bluemix.net/)
-  [Cognos Dashboard Embedded demo page on GitHub](https://github.com/IBM/cognos-dashboard-demo)
-  {: .navgroup-end}
+    {: .navgroup id="reference"}
+    [API reference](https://dde-us-south.analytics.ibm.com/daas/jsdoc/cognos/api/CognosApi.html)
+    [Swagger reference](https://dde-us-south.analytics.ibm.com/api-docs/)
+    [Cognos Analytics Dashboard documentation](https://www.ibm.com/support/knowledgecenter/en/SSEP7J_11.0.0/com.ibm.swg.ba.cognos.ug_ca_dshb.doc/wa_dashboard_discoveryset_intro.html)
+    [Cognos Dashboard Embedded on developerWorks](https://developer.ibm.com/data/cognos-dashboard/)
+    [Cognos Dashboard Embedded as a Cloud pattern on developer.ibm.com](https://developer.ibm.com/patterns/build-a-dynamic-dashboard-application/)
+    [Tutorial: Building a data lake using object storage](https://console.bluemix.net/docs/tutorials/smart-data-lake.html#build-a-data-lake-using-object-storage)
+    [Tutorial: Combining serverless and Cloud Foundry for data retrieval and analytics](https://console.bluemix.net/docs/tutorials/serverless-github-traffic-analytics.html#combining-serverless-and-cloud-foundry-for-data-retrieval-and-analytics)
+    [Cognos Dashboard Embedded demo page](https://ibm-cognos-dashboard-demo.ng.bluemix.net/)
+    [Cognos Dashboard Embedded demo page on GitHub](https://github.com/IBM/cognos-dashboard-demo)
+    {: .navgroup-end}
