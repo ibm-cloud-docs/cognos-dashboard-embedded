@@ -2,11 +2,12 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-01”
+lastupdated: "2019-03-01"
 
 keywords: encryption, encrypt, data source, JDBCurl
 
 subcollection: cognos-dashboard-embedded
+
 ---
 
 {:new_window: target="_blank"}
