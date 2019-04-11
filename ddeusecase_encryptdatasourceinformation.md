@@ -24,7 +24,7 @@ When applications use {{site.data.keyword.dynamdashbemb_full}}, they provide dat
 To provide a secure way to pass this information from the embedding application to {{site.data.keyword.dynamdashbemb_short}}, and keep the plain text of these sensitive fields out of the browser, you must ensure that the calling application does things that are described in this section.
 
 When your embedding application creates a session, a public encryption key, in JSON Web Key format, is returned. 
-For more information on a {{site.data.keyword.dynamdashbemb_short}} session, see [Getting started tutorial](/docs/services/cognos-dashboard-embedded/dde_getting_started.html#step3).
+For more information on a {{site.data.keyword.dynamdashbemb_short}} session, see [Getting started tutorial](/docs/services/cognos-dashboard-embedded?topic=cognos-dashboard-embedded-gettingstartedtutorial#step3).
 For information on JSON Web Key, see [JSON Web Key](https://tools.ietf.org/html/rfc7517).
 
 Public encryption key in JSON Web Key format:
@@ -58,6 +58,6 @@ Use the prefix *{enc}* on encrypted field values. For example: "password" : "{en
 
 **Note:** When starting a new session, you must re-encrypt sensitive information that is contained in modules. Before you encrypt these fields, you must update the data sources.  Update the data sources by calling the *updateModuleDefinitions()* method. 
 
-For more information on using the *updateModuleDefinitions()* method, see [Updating data source information](/docs/services/cognos-dashboard-embedded/ddeusecase_updatedatasourceinfo.html#updating_data_source_information).
+For more information on using the *updateModuleDefinitions()* method, see [Updating data source information](/docs/services/cognos-dashboard-embedded?topic=cognos-dashboard-embedded-updating_data_source_information#updating_data_source_information).
 
 Update all modules with the encrypted fields, by using the encryption key of this session.
