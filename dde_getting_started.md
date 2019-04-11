@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-04-11"
 
 keywords: getting started, session, creating session, service credential
 
@@ -123,7 +123,7 @@ Make sure that your application does the following:
   2. The *sessionCode*, which is the same as the sessionCode created in step 3.
   3. The document object model (DOM) node. This is where the dashboard is embedded into your client application.
   
-If the initialization call fails and you get an error like "Refused to display <your IBM URL> in a frame because an ancestor violates the following Content Security Policy directive: frame-ancestors https://myapp.bluemix.net.", then this might be the result of not specifying the sub-domain of your application when you create the session.
+If the initialization call fails and you get an error like "Refused to display <your IBM URL> in a frame because an ancestor violates the following Content Security Policy directive: frame-ancestors.", then this might be the result of not specifying the sub-domain of your application when you create the session.
     
 After you created an instance of the dashboard, you can either create a new dashboard or open a previously authored dashboard by passing in the dashboard specification.
 
