@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-04-11"
 
 keywords: data source, addsource, method, adding
 
@@ -417,7 +417,7 @@ The top level module object has the following five fields:
 *Label* can be whatever the caller chooses. 
 All *identifier* fields in the scheme, must be made of alphanumeric characters, or the ‘_’ character, and must start with a letter. The main two parts of the module schema are the *source* and the *table* fields.
 
-The *source* field, identifies where the source is located, and what credentials are used to access the data source. Two types of sources are currently supported in {{site.data.keyword.dynamdashbemb_short}}, JDBC sources, and CSV sources. You can encrypt the fields of the sources section to keep credentials from being in plain text form in the browser, and only accessed from the server. For more information, see [Encrypting data source information](/docs/services/cognos-dashboard-embedded/ddeusecase_encryptdatasourceinformation.html#encryptingdatasourceinformation).
+The *source* field, identifies where the source is located, and what credentials are used to access the data source. Two types of sources are currently supported in {{site.data.keyword.dynamdashbemb_short}}, JDBC sources, and CSV sources. You can encrypt the fields of the sources section to keep credentials from being in plain text form in the browser, and only accessed from the server. For more information, see [Encrypting data source information](/docs/services/cognos-dashboard-embedded?topic=cognos-dashboard-embedded-encryptingdatasourceinformation#encryptingdatasourceinformation).
 
 When your DDE application initially shows, a + icon is availble to add a data source. You are advised to listen to the event (user clicks + icon) by using the following code:
 
