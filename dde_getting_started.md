@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019
-lastupdated: "2019-04-11"
+lastupdated: "2019-04-16"
 
 keywords: getting started, session, creating session, service credential
 
@@ -37,7 +37,7 @@ To create a {{site.data.keyword.dynamdashbemb_short}} service instance, do the f
 
 1. In your web browser, go to https://cloud.ibm.com/.
 1. Login to your {{site.data.keyword.cloud}} account, or create an account.
-1. Navigate to the {{site.data.keyword.cloud}} catalog: https://console.bluemix.net/catalog/.
+1. Navigate to the {{site.data.keyword.cloud}} catalog: https://cloud.ibm.com/catalog.
 1. In the section **Data & Analytics**, click the {{site.data.keyword.dynamdashbemb_short}} tile.
 1. On the {{site.data.keyword.dynamdashbemb_short}} catalog page, specify the following:
   1. Specify a name for the new {{site.data.keyword.dynamdashbemb_short}} service instance.
