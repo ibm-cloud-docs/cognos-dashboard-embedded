@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
   
-{: .toc subcollection="cognos-dashboard-embedded" audience="service" arm="3663097" href="/docs/services/cognos-dashboard-embedded/index.html" path="services/cognos-dashboard-embedded"}
+{: .toc subcollection="cognos-dashboard-embedded" category="analytics" audience="service" arm="3663097" href="/docs/services/cognos-dashboard-embedded/index.html" path="services/cognos-dashboard-embedded"}
 Cognos Dashboard Embedded
   
     {: .navgroup id="learn"}
