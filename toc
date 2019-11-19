@@ -23,8 +23,8 @@ Cognos Dashboard Embedded
     {: .navgroup id="reference"}
     [API reference](https://dde-us-south.analytics.ibm.com/daas/jsdoc/cognos/api/CognosApi.html)
     [Swagger reference](https://dde-us-south.analytics.ibm.com/api-docs/)
-    [Cognos Analytics Dashboard documentation](https://www.ibm.com/support/knowledgecenter/en/SSEP7J_11.0.0/com.ibm.swg.ba.cognos.ug_ca_dshb.doc/wa_dashboard_discoveryset_intro.html)
-    [Cognos Dashboard Embedded on developerWorks](https://developer.ibm.com/data/cognos-dashboard/)
+    [Cognos Analytics Dashboard documentation](https://www.ibm.com/support/knowledgecenter/en/SSEP7J_11.1.0/com.ibm.swg.ba.cognos.ug_ca_dshb.doc/wa_dashboard_discoveryset_intro.html)
+    [Cognos Dashboard Embedded on IBM Marketplace](https://www.ibm.com/us-en/marketplace/cognos-dashboard-embedded)
     [Cognos Dashboard Embedded as a Cloud pattern on developer.ibm.com](https://developer.ibm.com/patterns/build-a-dynamic-dashboard-application/)
     [Tutorial: Building a data lake using object storage](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-smart-data-lake#build-a-data-lake-using-object-storage)
     [Tutorial: Combining serverless and Cloud Foundry for data retrieval and analytics](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-serverless-github-traffic-analytics#combining-serverless-and-cloud-foundry-for-data-retrieval-and-analytics)
