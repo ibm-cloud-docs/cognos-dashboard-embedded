@@ -433,8 +433,8 @@ You then can add a data source to a dashboard in {{site.data.keyword.dynamdashbe
 ## JDBC data sources
 {: #jdbcdatasources}
 
-You can specify a database connection, for the following support JDBC connections:
--	DB2 
+You can specify a database connection, for the following supported JDBC connections:
+-	Db2 
 -	PostgreSQL
 -	Oracle
 -	MS SQLServer
