@@ -26,7 +26,6 @@ Cognos Dashboard Embedded
     [Cognos Analytics Dashboard documentation](https://www.ibm.com/support/knowledgecenter/en/SSEP7J_11.1.0/com.ibm.swg.ba.cognos.ug_ca_dshb.doc/wa_dashboard_discoveryset_intro.html)
     [Cognos Dashboard Embedded on IBM Marketplace](https://www.ibm.com/us-en/marketplace/cognos-dashboard-embedded)
     [Cognos Dashboard Embedded as a Cloud pattern on developer.ibm.com](https://developer.ibm.com/patterns/build-a-dynamic-dashboard-application/)
-    [Tutorial: Building a data lake using object storage](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-smart-data-lake#build-a-data-lake-using-object-storage)
     [Tutorial: Combining serverless and Cloud Foundry for data retrieval and analytics](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-serverless-github-traffic-analytics#combining-serverless-and-cloud-foundry-for-data-retrieval-and-analytics)
     [Cognos Dashboard Embedded demo page](https://ibm-cognos-dashboard-demo.ng.bluemix.net/)
     [Cognos Dashboard Embedded demo page on GitHub](https://github.com/IBM/cognos-dashboard-demo)
