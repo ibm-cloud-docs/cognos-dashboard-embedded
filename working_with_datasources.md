@@ -546,7 +546,9 @@ Do not change the *sourceUrl* when it is defined. Make sure that the server that
 
 If you need {{site.data.keyword.dynamdashbemb_full}} to pass extra headers on the request for the CSV file, to for example, facilitate authentication, you can add headers to the module definition as shown.
 
-**Note:** The maximum supported size for CSV files is 1 GB.
+**Notes:** 
+* The maximum supported size for CSV files is 1 GB.
+* The CSV file is accessed using a GET request to the sourceUrl provided. It is highly recommended that a secure (_https_) URL be provided. 
  
 
 ### Sample CSV source specification:
