@@ -32,10 +32,10 @@ dashboardAPI.addSources([{
   name: 'Test Source',
   id: 'myUniqueId123'
 }])
-```    
+```
 {: pre}
 
-The *name* is how the data source appears in the metadata tree, in the dashboard source pane. 
+The *name* is how the data source appears in the metadata tree, in the dashboard source pane.
 
 The *id* can be anything that you want. Use the ID to reference the data source in other method calls. For example, in the *updateModuleDefinitions()* method.
 
@@ -407,14 +407,14 @@ The *module* is where the data source location, credentials, and format are desc
 	</xsd:complexType>
 </xsd:schema>
 
-```    
+```
 {: pre}
 
 The top level module object has the following five fields:
 
 ![toplevelmodulefivefields](toplevelmodule.jpg "Five fields in the top level module")
 
-*Label* can be whatever the caller chooses. 
+*Label* can be whatever the caller chooses.
 All *identifier* fields in the scheme, must be made of alphanumeric characters, or the ‘_’ character, and must start with a letter. The main two parts of the module schema are the *source* and the *table* fields.
 
 The *source* field, identifies where the source is located, and what credentials are used to access the data source. Two types of sources are currently supported in {{site.data.keyword.dynamdashbemb_short}}, JDBC sources, and CSV sources. You can encrypt the fields of the sources section to keep credentials from being in plain text form in the browser, and only accessed from the server. For more information, see [Encrypting data source information](/docs/services/cognos-dashboard-embedded?topic=cognos-dashboard-embedded-encryptingdatasourceinformation#encryptingdatasourceinformation).
@@ -423,7 +423,7 @@ When your DDE application initially shows, a + icon is availble to add a data so
 
 ```bash
 dashboardAPI.on(‘addSource:clicked’, cb)
-```    
+```
 {: pre}
 
 For more information about the *on* method, see "https://dde.us-south.containers.mybluemix.net/daas/jsdoc/cognos/api/DashboardApi.html#on".
@@ -434,7 +434,7 @@ You then can add a data source to a dashboard in {{site.data.keyword.dynamdashbe
 {: #jdbcdatasources}
 
 You can specify a database connection, for the following supported JDBC connections:
--	Db2 
+-	Db2
 -	PostgreSQL
 -	Oracle
 -	MS SQLServer
@@ -534,7 +534,7 @@ You can specify a database connection, for the following supported JDBC connecti
 	"identifier": "moduleId"
 }
 
-```    
+```
 {: pre}
 
 ## CSV data sources
@@ -546,8 +546,10 @@ Do not change the *sourceUrl* when it is defined. Make sure that the server that
 
 If you need {{site.data.keyword.dynamdashbemb_full}} to pass extra headers on the request for the CSV file, to for example, facilitate authentication, you can add headers to the module definition as shown.
 
-**Note:** The maximum supported size for CSV files is 1 GB.
- 
+**Notes:**
+* The maximum supported size for CSV files is 1 GB.
+* The CSV file is accessed using a GET request to the sourceUrl provided. Provide a secure (https) URL.
+
 
 ### Sample CSV source specification:
 {: #samplecsvsource}
@@ -687,7 +689,7 @@ If you need {{site.data.keyword.dynamdashbemb_full}} to pass extra headers on th
   "label": "Module Name",
   "identifier": "moduleId"
 }
-```    
+```
 {: pre}
 
 
