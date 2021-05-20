@@ -548,7 +548,7 @@ If you need {{site.data.keyword.dynamdashbemb_full}} to pass extra headers on th
 
 **Notes:** 
 - The maximum supported size for CSV files is 1 GB.
-- The CSV file is accessed using a GET request to the sourceUrl provided. Provide a secure (https) URL.
+- The CSV file is accessed using a GET request to the sourceUrl provided. **Provide a secure (https) URL.**
 
 ### Sample CSV source specification:
 {: #samplecsvsource}
