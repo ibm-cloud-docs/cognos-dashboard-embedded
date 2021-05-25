@@ -1,13 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-04-16"
-
-keywords: getting started, session, creating session, service credential
-
-subcollection: cognos-dashboard-embedded
-
+  years: 2021
+lastupdated: "2021-05-25"
 ---
 
 {:new_window: target="_blank"}
@@ -35,16 +30,16 @@ bx account list
 
 To create a {{site.data.keyword.dynamdashbemb_short}} service instance, do the following steps:
 
-1. In your web browser, go to https://cloud.ibm.com/.
-1. Login to your {{site.data.keyword.cloud}} account, or create an account.
-1. Navigate to the {{site.data.keyword.cloud}} catalog: https://cloud.ibm.com/catalog.
-1. In the section **Data & Analytics**, click the {{site.data.keyword.dynamdashbemb_short}} tile.
-1. On the {{site.data.keyword.dynamdashbemb_short}} catalog page, specify the following:
-  1. Specify a name for the new {{site.data.keyword.dynamdashbemb_short}} service instance.
-  1. Choose a region.
-  1. Choose a resource group.
-  1. Choose the **Lite** planning price.
-  1. Click **Create**.
+1. In your web browser, go to https://console.bluemix.net.
+2. Log into your {{site.data.keyword.cloud}} account, or create an account.
+3. Navigate to the {{site.data.keyword.cloud}} catalog: https://console.bluemix.net/catalog/.
+4. In the section **Data & Analytics**, click the {{site.data.keyword.dynamdashbemb_short}} tile.
+5. On the {{site.data.keyword.dynamdashbemb_short}} catalog page, specify the following:
+  - Specify a name for the new {{site.data.keyword.dynamdashbemb_short}} service instance.
+  - Choose a region.
+  - Choose a resource group.
+  - Choose the **Lite** planning price.
+  - Click **Create**.
 
 The {{site.data.keyword.dynamdashbemb_short}} service instance page displays once the service instance is created. This page allows you to access the Getting Started documentation, create credentials, and view or change your plan settings.
 
@@ -56,10 +51,10 @@ For billing and security purposes, you can create multiple instances.
 You use a service credential to programmatically access the service from your application. The service credential includes the URL to access the service instance and the credentials to access the service. It may be desirable to create multiple service credentials for different applications or deployments of your applications. You cannot restore removed credentials. You'll have to create new credentials for your application.
 
 1. On the left side, click **Service credentials** and click **New credential**. Then, do the following steps:
-	1. In the **Name** field, you specify the name of the credential. This should represent the name of the application that will be accessing the service.
-	1. Optionally select an Access role and Service ID. 
+  - In the **Name** field, you specify the name of the credential. This should represent the name of the application that will be accessing the service.
+  - Optionally select an Access role and Service ID. 
     **Note:** The IAM role is currently not used to access the {{site.data.keyword.dynamdashbemb_short}} service.
-	1. Click **Add**.
+  - Click **Add**.
 2. On the **Service Credentials screen**, click **View credentials** on the name of the credential that you created in the previous step. A JSON object is displayed which includes credential details.
 
 You will use the following values to create a session and embed {{site.data.keyword.dynamdashbemb_short}} into your application:
@@ -123,7 +118,7 @@ Make sure that your application does the following:
   2. The *sessionCode*, which is the same as the sessionCode created in step 3.
   3. The document object model (DOM) node. This is where the dashboard is embedded into your client application.
   
-If the initialization call fails and you get an error like "Refused to display <your IBM URL> in a frame because an ancestor violates the following Content Security Policy directive: frame-ancestors.", then this might be the result of not specifying the sub-domain of your application when you create the session.
+If the initialization call fails and you get an error like "Refused to display <your IBM URL> in a frame because an ancestor violates the following Content Security Policy directive: frame-ancestors https://myapp.bluemix.net.", then this might be the result of not specifying the sub-domain of your application when you create the session.
     
 After you created an instance of the dashboard, you can either create a new dashboard or open a previously authored dashboard by passing in the dashboard specification.
 
@@ -141,7 +136,7 @@ https://ibm-cognos-dashboard-demo.ng.bluemix.net/.
 
 As a starting point a demonstration project is available on GitHub: https://github.com/IBM/cognos-dashboard-demo.
 
-## Step 5: Working with a {{site.data.keyword.dynamdashbemb_short}}
+## Step 5: Working with {{site.data.keyword.dynamdashbemb_short}}
 {: #step5}
 
 {{site.data.keyword.dynamdashbemb_full}} uses the powerful IBM Cognos Analytics dashboard experience. To learn more above the Cognos Analytics dashboard experience, please see [IBM Cognos Analytics - Dashboard documentation](https://www.ibm.com/support/knowledgecenter/en/SSEP7J_11.0.0/com.ibm.swg.ba.cognos.ug_ca_dshb.doc/wa_dashboard_discoveryset_intro.html){: new_window}.
