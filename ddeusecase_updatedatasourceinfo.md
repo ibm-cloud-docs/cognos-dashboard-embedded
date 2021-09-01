@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-01-19"
+lastupdated: "2021-09-01"
 ---
 
 {:new_window: target="_blank"}
@@ -28,5 +28,5 @@ Example flow of how to open a dashboard:
 
 ![opendashboardflow](/images/opendashboardflow.svg "Open a dashboard flow")
 
-WDP: Watson Data Platform
-DSX: Data Science Experience
+- WDP: Watson Data Platform
+- DSX: Data Science Experience
