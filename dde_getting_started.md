@@ -21,7 +21,7 @@ You can create one or more instances of the {{site.data.keyword.dynamdashbemb_sh
 
 **Note:**  The Lite pricing plan is unrestricted.  When the {{site.data.keyword.dynamdashbemb_short}} service becomes generally available, quotas will be enforced for the entire account. Creating additional Lite plans will share the same quota.
 
-To see your GUID, use the following Bluemix command in the command line interface (CLI):  
+To see your GUID, use the following command in the command line interface (CLI):  
 
 ```bash
 bx account list
@@ -30,10 +30,10 @@ bx account list
 
 To create a {{site.data.keyword.dynamdashbemb_short}} service instance, do the following steps:
 
-1. In your web browser, go to https://console.bluemix.net.
+1. In your web browser, go to https://cloud.ibm.com/login.
 2. Log into your {{site.data.keyword.cloud}} account, or create an account.
-3. Navigate to the {{site.data.keyword.cloud}} catalog: https://console.bluemix.net/catalog/.
-4. In the section **Data & Analytics**, click the {{site.data.keyword.dynamdashbemb_short}} tile.
+3. Navigate to the {{site.data.keyword.cloud}} catalog: https://cloud.ibm.com/catalog.
+4. In the **Analytics** section, click the {{site.data.keyword.dynamdashbemb_short}} tile.
 5. On the {{site.data.keyword.dynamdashbemb_short}} catalog page, specify the following:
   - Specify a name for the new {{site.data.keyword.dynamdashbemb_short}} service instance.
   - Choose a region.
@@ -139,6 +139,6 @@ As a starting point a demonstration project is available on GitHub: https://gith
 ## Step 5: Working with {{site.data.keyword.dynamdashbemb_short}}
 {: #step5}
 
-{{site.data.keyword.dynamdashbemb_full}} uses the powerful IBM Cognos Analytics dashboard experience. To learn more above the Cognos Analytics dashboard experience, please see [IBM Cognos Analytics - Dashboard documentation](https://www.ibm.com/support/knowledgecenter/en/SSEP7J_11.0.0/com.ibm.swg.ba.cognos.ug_ca_dshb.doc/wa_dashboard_discoveryset_intro.html){: new_window}.
+{{site.data.keyword.dynamdashbemb_full}} uses the powerful IBM Cognos Analytics dashboard experience. To learn more above the Cognos Analytics dashboard experience, please see [IBM Cognos Analytics - Dashboard documentation](https://www.ibm.com/support/knowledgecenter/en/SSEP7J_11.1.0/com.ibm.swg.ba.cognos.ug_ca_dshb.doc/wa_dashboard_discoveryset_intro.html){: new_window}.
 
 

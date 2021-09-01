@@ -1,13 +1,8 @@
 ---
 
-ccopyright:
-  years: 2018, 2019
-lastupdated: "2019-03-01"
-
-keywords: data source, update
-
-subcollection: cognos-dashboard-embedded
-
+copyright:
+  years: 2018
+lastupdated: "2018-01-19"
 ---
 
 {:new_window: target="_blank"}
@@ -32,3 +27,6 @@ The callback function is passed in the list of module ids, and is responsible fo
 Example flow of how to open a dashboard:
 
 ![opendashboardflow](/images/opendashboardflow.svg "Open a dashboard flow")
+
+WDP: Watson Data Platform
+DSX: Data Science Experience
