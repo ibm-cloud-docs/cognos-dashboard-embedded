@@ -16,6 +16,8 @@ lastupdated: "2021-09-02"
 
 {{site.data.keyword.dynamdashbemb_full}} provides developers the ability to embed a visualization platform directly into their application.
 
+If instead of embedding dashboards in your applications with APIs, you want to create visualization in a dashboard editor, see [Cognos Dashboards on Cloud Pak for Data as a Service](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/analytics-dashboard.html){: new_window}.
+
 ![dashboard_intro](dashboard_intro.jpg "Screenshot of a dashboard")
 
 You as a developer have the flexibility to define the user workflow and control the options available to users. You can choose from a guided exploration of the analysis through authored fixed dashboards, to a free-form analytic exploration environment in which users choose their own visualizations – and virtually anything in between.
